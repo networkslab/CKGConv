@@ -1,6 +1,7 @@
 # Read Me  
 > This is the official implementation for CKGConv.
-> Ma, L., Pal, S., Zhang, Y., Zhou, J., Zhang, Y., & Coates, M. CKGConv: General Graph Convolution with Continuous Kernels. In *Forty-first International Conference on Machine Learning* (ICML2024).
+> 
+> Ma, L., Pal, S., Zhang, Y., Zhou, J., Zhang, Y., & Coates, M. CKGConv: General Graph Convolution with Continuous Kernels. In *Forty-first International Conference on Machine Learning* (ICML2024). [[ICML]](https://proceedings.mlr.press/v235/ma24k.html)  [[arXiv]](https://arxiv.org/abs/2404.13604)
 
 > The code base is built upon the code of [GRIT](https://github.com/LiamMa/GRIT) and [GraphGPS](https://github.com/rampasek/GraphGPS).
 > 
