@@ -60,7 +60,7 @@
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
     "git-widget-placeholder": "Submitted-Version",
-    "last_opened_file_path": "/Users/Liam/Documents/Work/Submission/CKGConv-ICML2024/code/CKGConv-Submitted-Version",
+    "last_opened_file_path": "/Users/Liam/Documents/Work/Submission/CKGConv-ICML2024/code/CKGConv-Submitted-Version/asset",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,11 +72,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/asset" />
       <recent name="$PROJECT_DIR$/case_study" />
       <recent name="$PROJECT_DIR$/scripts/Rebuttal" />
       <recent name="$PROJECT_DIR$/configs/CKGConvMLP" />
       <recent name="$PROJECT_DIR$/configs/Next" />
-      <recent name="$PROJECT_DIR$/configs/Rebuttal" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\l84128550\Projects\ICML2024 Submission\CKGConv\scripts" />
@@ -268,7 +268,7 @@
       <workItem from="1710864137210" duration="90000" />
       <workItem from="1710985523575" duration="1728000" />
       <workItem from="1711285409395" duration="2426000" />
-      <workItem from="1722814093678" duration="2663000" />
+      <workItem from="1722814093678" duration="3088000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
