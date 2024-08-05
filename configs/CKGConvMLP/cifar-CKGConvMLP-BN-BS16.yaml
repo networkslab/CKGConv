@@ -1,0 +1,98 @@
+out_dir: results
+metric_best: accuracy
+tensorboard_each_run: True  # Log to Tensorboard each run
+accelerator: "cuda:0"
+num_workers: 16
+mlflow:
+  use: False
+  project: Exp
+  name: cifar
+wandb:
+  use: False
+  project: CIFAR10
+dataset:
+  pe_transform_on_the_fly: True
+  format: PyG-GNNBenchmarkDataset
+  name: CIFAR10
+  task: graph
+  task_type: classification
+  transductive: False
+  node_encoder: True
+  node_encoder_name: LinearNode
+  node_encoder_bn: False
+  edge_encoder: True
+  edge_encoder_name: LinearEdge
+  edge_encoder_bn: False
+posenc_RRWP:
+  enable: True
+  ksteps: 18
+  add_identity: True
+  add_node_attr: False
+  add_uniform: False
+train:
+  mode: custom
+  batch_size: 16
+  eval_period: 1
+  ckpt_period: 100
+#  enable_ckpt: True  # Checkpointing can now be disabled to save I/O when e.g. just benchmarking.
+#  ckpt_best: True  # WARNING: Checkpoint every epoch a better model is found may increase I/O significantly.
+#  ckpt_clean: True # Delete old ckpt each time.
+model:
+  type: CKGConvNet
+  loss_fun: cross_entropy
+  edge_decoding: dot
+  graph_pooling: mean
+gt:
+  stem:
+    node_stem: 'rrwp_stem'
+    edge_stem: 'rrwp_stem'
+    kernel_expected: True
+    raw_norm: True
+    affine_transform: True
+    affine_alpha: 0.1  # Cifar graph sizes is approxiately 100
+    num_layers: 0
+    batch_norm: True
+    act: 'gelu'
+    ffn_ratio: 2.
+  layer_type: CKGraphConvMLP
+  layers: 3
+  n_heads: 56
+  dim_hidden: 56 # `gt.dim_hidden` must match `gnn.dim_inner`
+  layer_norm: False
+  batch_norm: True
+  update_e: False
+  dropout: 0.
+  attn_dropout: 0.5
+  attn:
+    mlp_dropout: 0.1
+    full_attn: True
+    value_proj: False
+    out_proj: True
+    average: True
+    n_mlp_blocks: 2
+    ffn_ratio: 1.
+    batch_norm: True # norm in kernel-mlp
+    layer_norm: False # norm in kernel-mlp
+    deg_scaler: True
+    clamp: None
+    act: 'gelu'
+gnn:
+  head: default
+  layers_pre_mp: 0
+  layers_post_mp: 2
+  dim_inner: 56  # `gt.dim_hidden` must match `gnn.dim_inner`
+  batchnorm: False
+  act: 'gelu'
+  dropout: 0.0
+  agg: mean
+  normalize_adj: False
+optim:
+  clip_grad_norm: True
+  optimizer: adamW
+  weight_decay: 1e-5
+  base_lr: 1e-3
+  max_epoch: 200
+  num_warmup_epochs: 5
+#  scheduler: cosine_with_warmup
+  scheduler: timm_cosine_with_warmup
+  min_lr: 1e-4

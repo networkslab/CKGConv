@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="320ca2a1-28d5-4c53-8d31-959ddc2a4b17" name="Ceres (project level)">
+        <fileTransfer rootFolder="/home/liheng/Projects" accessType="SFTP" host="10.193.241.125" port="22" sshConfigId="aa52d2de-b581-429a-a7f5-7824bb916ad7" sshConfig="Ceres">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

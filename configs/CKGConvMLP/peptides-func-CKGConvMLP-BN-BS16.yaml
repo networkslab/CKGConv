@@ -1,0 +1,91 @@
+out_dir: results
+metric_best: ap
+accelerator: "cuda:0"
+tensorboard_each_run: True  # Log to Tensorboard each run
+mlflow:
+  use: False
+  project: Exp
+  name: peptides-func
+wandb:
+  use: False
+  project: peptides-func
+dataset:
+  format: OGB
+  name: peptides-functional
+  task: graph
+  task_type: classification_multilabel
+  transductive: False
+  node_encoder: True
+  node_encoder_name: Atom
+  node_encoder_bn: False
+  edge_encoder: True
+  edge_encoder_name: Bond
+  edge_encoder_bn: False
+posenc_RRWP:
+  enable: True
+  ksteps: 24
+  add_identity: True
+  add_node_attr: False
+train:
+  mode: custom
+#  batch_size: 32
+  batch_size: 16
+  eval_period: 1
+  ckpt_period: 100
+model:
+  type: CKGConvNet
+  loss_fun: cross_entropy
+  graph_pooling: mean
+gt:
+  stem:
+    node_stem: 'rrwp_stem'
+    edge_stem: 'rrwp_stem'
+    kernel_expected: True
+    raw_norm: True
+    affine_transform: False
+    affine_alpha: 0.1
+    add_scaled_bias: False
+    scale_attr: False
+    num_layers: 0
+    batch_norm: True
+    act: 'gelu'
+    ffn_ratio: 2
+  layer_type: CKGraphConvMLP
+  layers: 4
+  n_heads: 96
+  dim_hidden: 96  # `gt.dim_hidden` must match `gnn.dim_inner`
+  dropout: 0.0
+  attn_dropout: 0.5
+  layer_norm: False
+  batch_norm: True
+  attn:
+    mlp_dropout: 0.2
+    full_attn: True
+    value_proj: False
+    out_proj: True
+    average: True
+    n_mlp_blocks: 2
+    ffn_ratio: 1.
+    batch_norm: True
+    layer_norm: False
+    clamp: None
+    deg_scaler: True
+    act: 'gelu'
+gnn:
+  head: default
+  layers_pre_mp: 0
+  layers_post_mp: 3  # Not used when `gnn.head: san_graph`
+  dim_inner: 96  # `gt.dim_hidden` must match `gnn.dim_inner`
+  batchnorm: True
+  act: 'gelu'
+  dropout: 0.0
+optim:
+  clip_grad_norm: True
+  optimizer: adamW
+  weight_decay: 0.0
+  base_lr: 0.001 # 0.0003
+  max_epoch: 200
+  # scheduler: cosine_with_warmup
+  scheduler: timm_cosine_with_warmup
+  min_lr: 1e-4  # 1e-5
+  num_warmup_epochs: 10

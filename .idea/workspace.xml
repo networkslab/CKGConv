@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3c0328bb-e576-4578-8d47-7810b27e29bd" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/grit/layer/grit_layer.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2LYTc1MpSDfD4YXaKqdgtO8SXAS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "git-widget-placeholder": "Submitted-Version",
+    "last_opened_file_path": "/Users/Liam/Documents/Work/Submission/CKGConv-ICML2024/code/CKGConv-Submitted-Version",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/case_study" />
+      <recent name="$PROJECT_DIR$/scripts/Rebuttal" />
+      <recent name="$PROJECT_DIR$/configs/CKGConvMLP" />
+      <recent name="$PROJECT_DIR$/configs/Next" />
+      <recent name="$PROJECT_DIR$/configs/Rebuttal" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\l84128550\Projects\ICML2024 Submission\CKGConv\scripts" />
+      <recent name="D:\l84128550\Projects\GRITF\configs\V16-BN\bad" />
+      <recent name="D:\l84128550\Projects\GRITF\configs\V16-BN\ablation\blur" />
+      <recent name="D:\l84128550\Projects\GRITF\configs\V16-BN" />
+      <recent name="D:\l84128550\Projects\GRITF\configs\PreJan27" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GRITF" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LearningFilters" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LearningFilters/models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.models" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
+        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+    <option name="myConnectionId" value="" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\l84128550\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c0328bb-e576-4578-8d47-7810b27e29bd" name="Changes" comment="" />
+      <created>1676047092404</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676047092404</updated>
+      <workItem from="1676047094934" duration="2934000" />
+      <workItem from="1676157340549" duration="7054000" />
+      <workItem from="1676604391867" duration="101000" />
+      <workItem from="1676939178538" duration="12000" />
+      <workItem from="1676991531359" duration="622000" />
+      <workItem from="1677010111160" duration="384000" />
+      <workItem from="1677038875268" duration="2295000" />
+      <workItem from="1677094089269" duration="1983000" />
+      <workItem from="1677206775904" duration="636000" />
+      <workItem from="1677437024607" duration="15023000" />
+      <workItem from="1677552577383" duration="894000" />
+      <workItem from="1677598642226" duration="6195000" />
+      <workItem from="1677616675070" duration="1475000" />
+      <workItem from="1677621399845" duration="122000" />
+      <workItem from="1677623250827" duration="6539000" />
+      <workItem from="1677807711459" duration="1020000" />
+      <workItem from="1677816014005" duration="624000" />
+      <workItem from="1677858081639" duration="17000" />
+      <workItem from="1677867979567" duration="2872000" />
+      <workItem from="1677872465005" duration="1259000" />
+      <workItem from="1677947693323" duration="1695000" />
+      <workItem from="1677951293591" duration="2178000" />
+      <workItem from="1677992047562" duration="3854000" />
+      <workItem from="1678072285132" duration="739000" />
+      <workItem from="1678123798164" duration="599000" />
+      <workItem from="1678140067283" duration="2389000" />
+      <workItem from="1678236292143" duration="91000" />
+      <workItem from="1678394291214" duration="1425000" />
+      <workItem from="1678404761579" duration="1467000" />
+      <workItem from="1678557334313" duration="2538000" />
+      <workItem from="1678677828549" duration="1899000" />
+      <workItem from="1678818522645" duration="40788000" />
+      <workItem from="1679025074562" duration="12318000" />
+      <workItem from="1679110900605" duration="97000" />
+      <workItem from="1679155007685" duration="8441000" />
+      <workItem from="1679344267838" duration="22000" />
+      <workItem from="1679419181119" duration="20310000" />
+      <workItem from="1679515014574" duration="2051000" />
+      <workItem from="1679582337936" duration="3416000" />
+      <workItem from="1679603903458" duration="4535000" />
+      <workItem from="1679666650202" duration="200000" />
+      <workItem from="1680278928097" duration="737000" />
+      <workItem from="1680507505420" duration="453000" />
+      <workItem from="1680657150279" duration="16000" />
+      <workItem from="1680657215199" duration="316000" />
+      <workItem from="1683053206104" duration="171000" />
+      <workItem from="1683488961096" duration="1227000" />
+      <workItem from="1683601613662" duration="717000" />
+      <workItem from="1683949614712" duration="10516000" />
+      <workItem from="1684119088891" duration="36000" />
+      <workItem from="1684176345869" duration="4100000" />
+      <workItem from="1684261680312" duration="1222000" />
+      <workItem from="1684361587957" duration="2869000" />
+      <workItem from="1684376151431" duration="79000" />
+      <workItem from="1684451151086" duration="13000" />
+      <workItem from="1684533869571" duration="8489000" />
+      <workItem from="1684854531259" duration="9656000" />
+      <workItem from="1684944675768" duration="1287000" />
+      <workItem from="1684951355059" duration="5716000" />
+      <workItem from="1685057826381" duration="27182000" />
+      <workItem from="1685391800340" duration="18470000" />
+      <workItem from="1685629247695" duration="13441000" />
+      <workItem from="1685743898982" duration="1818000" />
+      <workItem from="1685985643099" duration="6000" />
+      <workItem from="1685987903761" duration="6173000" />
+      <workItem from="1686058693705" duration="10579000" />
+      <workItem from="1686158927214" duration="41346000" />
+      <workItem from="1686597541722" duration="526000" />
+      <workItem from="1686670805503" duration="3363000" />
+      <workItem from="1686775612832" duration="12795000" />
+      <workItem from="1687036069365" duration="32261000" />
+      <workItem from="1687371669984" duration="11382000" />
+      <workItem from="1687889959599" duration="2979000" />
+      <workItem from="1688136608039" duration="495000" />
+      <workItem from="1688137139182" duration="347000" />
+      <workItem from="1688137515226" duration="415000" />
+      <workItem from="1688145420192" duration="478000" />
+      <workItem from="1688145907827" duration="412000" />
+      <workItem from="1688147234976" duration="344000" />
+      <workItem from="1688147941386" duration="52000" />
+      <workItem from="1688148002484" duration="3315000" />
+      <workItem from="1688504756249" duration="24831000" />
+      <workItem from="1689135496287" duration="1234000" />
+      <workItem from="1689145712583" duration="66000" />
+      <workItem from="1690184245870" duration="10627000" />
+      <workItem from="1690358896064" duration="3238000" />
+      <workItem from="1690444033521" duration="2722000" />
+      <workItem from="1690532280936" duration="10214000" />
+      <workItem from="1690557899310" duration="20738000" />
+      <workItem from="1690795189268" duration="6659000" />
+      <workItem from="1690888008318" duration="608000" />
+      <workItem from="1690900194024" duration="32460000" />
+      <workItem from="1691547284728" duration="71000" />
+      <workItem from="1691647021348" duration="31629000" />
+      <workItem from="1692656121174" duration="13809000" />
+      <workItem from="1692829345710" duration="17410000" />
+      <workItem from="1693189802454" duration="1667000" />
+      <workItem from="1693245357925" duration="28091000" />
+      <workItem from="1693597535158" duration="163909000" />
+      <workItem from="1694806265863" duration="113577000" />
+      <workItem from="1695393311588" duration="44910000" />
+      <workItem from="1695652191352" duration="37875000" />
+      <workItem from="1696631741900" duration="1457000" />
+      <workItem from="1696778241893" duration="6549000" />
+      <workItem from="1696809684959" duration="64000" />
+      <workItem from="1696816349580" duration="2946000" />
+      <workItem from="1696896472909" duration="14974000" />
+      <workItem from="1697565496119" duration="11379000" />
+      <workItem from="1698008783570" duration="223229000" />
+      <workItem from="1700175237089" duration="57327000" />
+      <workItem from="1700850679960" duration="184324000" />
+      <workItem from="1702070631712" duration="55130000" />
+      <workItem from="1702483738843" duration="231003000" />
+      <workItem from="1704384494869" duration="73388000" />
+      <workItem from="1704987491143" duration="159955000" />
+      <workItem from="1705703360343" duration="60582000" />
+      <workItem from="1705960502740" duration="122980000" />
+      <workItem from="1706841698217" duration="5082000" />
+      <workItem from="1706850897803" duration="106000" />
+      <workItem from="1706854563387" duration="52000" />
+      <workItem from="1707149333868" duration="2659000" />
+      <workItem from="1709824653877" duration="1603000" />
+      <workItem from="1709827307631" duration="16251000" />
+      <workItem from="1710512718099" duration="8827000" />
+      <workItem from="1710785118198" duration="6089000" />
+      <workItem from="1710864137210" duration="90000" />
+      <workItem from="1710985523575" duration="1728000" />
+      <workItem from="1711285409395" duration="2426000" />
+      <workItem from="1722814093678" duration="2663000" />
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ckgconv/layer/ckgconv_layer.py</url>
+          <line>175</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
